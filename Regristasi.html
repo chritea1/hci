@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Regristasi Vintage </title>
+    <script src="script.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <!-- Regristasi yak buat logo nanti gw taruhin diatas -->
+    <div class="main-regristasi">
+        <h1>Regristasi Form</h1>
+        <Span class="Menu regris">
+            Regristasi
+        </Span>
+        
+        <form action="#" method="post" onsubmit="submitForm(event)">
+        <div>
+
+        <label for="Name">Full Name</label>
+        <input type="text" name="FullName" id="Eame"placeholder="Your FullName">
+      
+        </div>
+
+       <div>
+           <label for="Email">Email</label>
+           <input type="text" name="Email" id="Email" placeholder="Your email">
+       </div>
+
+       <div>
+
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" placeholder="Your Password">
+        
+        </div>
+        <div>
+
+            <label for="ConfirmPass">Password</label>
+            <input type="password" name="ConfirmPass" id="ConfirmPass" placeholder="Confirm Your Password">
+            
+         </div>
+  
+    <div>
+        <label for="Gender">Gender</label>
+        <span>
+            <input type="radio" name="gender" value="Male" id="male">
+            <label for="male">Male</label>
+        </span>
+        <span>
+            <input type="radio" name="gender" value="Female" id="female">
+            <label for="female">Female</label>
+        </span>
+    </div>
+
+    <div>
+        <label for="Member">Member</label>
+        <input type="text" name="Member" id="Member" placeholder="Masukan Urutan Member">
+    </div>
+    
+     <!-- <div>
+    <label for="Member">Member</label>
+    <input type="text" name="Member" id="Member" placeholder="Masukan Urutan Member">
+    </div> -->
+
+   
+    <!-- Pop UP -->
+    <div class="Term-Condition">
+        <label>
+        <input type="checkbox" name="Agree">
+        <span>I Agree with the Terms and Term-Condition</span>
+    </label>
+    </div>
+    <!-- </div>
+    <label for="Perjanjian"></label>
+    <span>Syarat dan Ketentuan</span>
+    </form> 
+    </div> -->
+    <div class="Register">
+        <input type="submit" value="Register">
+    </div> 
+</form> 
+<div id="Error">
+            
+</div>
+<div id="Success">
+    
+</div>
+</div>
+
+</body>
+</html>
