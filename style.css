@@ -1,0 +1,99 @@
+body{
+    background-image:url('HCI.png');
+    background-size: cover;
+    font-family:arial;
+
+}
+.main-regristasi{
+    max-width: 380px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    box-sizing: border-box;
+    padding:12px 5px;
+    background: rgba(0, 0, 0, 0.10);
+    outline: none;
+    border:none;
+    border-bottom: 1px dotted #fff;
+    color: #ffffff;
+    border-radius: 5px;
+    margin:5px;
+    font-weight: bold;
+}
+input[type=Submit]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background:#60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color:#ffffff;
+}
+input[type=Submit]:hover{
+    background: #003366;
+    opacity: 0.7;
+}
+input[type=Reset]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background:#60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color:#ffffff;
+}
+input[type=Reset]:hover{
+    background: #003366;
+    opacity: 0.7;
+}
+#results>.main-regristasi{
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+}
+/* #error{
+    background-color: rgb(253, 183, 183);
+    border-radius: 5px;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    animation: popin 3s forwards;
+}
+
+#success{
+    background-color: rgb(183, 253, 195);
+    border-radius: 5px;
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    animation: popin 3s forwards;
+} */
+#TermAndCondition{
+    text-decoration: none;
+    color: white;
+
+}
